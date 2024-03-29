@@ -213,13 +213,20 @@ ul{
 }
 
 .legend{
-  text-align: center;
-  font-size: medium;
-  font-family: sans-serif;
+    font-size: medium;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .fieldset1{
-  text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    height: auto;
 }
 
 .forms{
