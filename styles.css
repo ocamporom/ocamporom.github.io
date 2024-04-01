@@ -87,6 +87,7 @@ html{
   font-size: xx-large;
   text-decoration: none;
   font-family: FontAwesome;
+
 }
 
 ul li a{
@@ -206,28 +207,23 @@ ul{
 .input{
   width: 290px;
   height: 40px;
+  font-size: larger;
 }
 
 #comment{
-  width: 290px ;
-}
-
-.legend{
-    font-size: medium;
-    font-family: sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 290px;
+  font-size: larger;
 }
 
 .fieldset1{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-content: center;
-    align-items: center;
-    height: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  height: auto;
 }
+
 
 .forms{
   background-color: #040e5398;
